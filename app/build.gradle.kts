@@ -80,6 +80,7 @@ dependencies {
 //Room
     implementation("androidx.room:room-runtime:${rootProject.extra["room_version"]}")
     implementation("androidx.room:room-common:2.6.1")
+    implementation("androidx.test.ext:junit-ktx:1.2.1")
     ksp("androidx.room:room-compiler:${rootProject.extra["room_version"]}")
     implementation("androidx.room:room-ktx:${rootProject.extra["room_version"]}")
     // Testing
